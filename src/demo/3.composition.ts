@@ -56,9 +56,9 @@ type Coin = Nickel | Dime | Quarter;
 
 const insertCoin = (coin: Coin) => {}
 
-// insertCoin({ name: "dime", value: 10 })
-// insertCoin({ name: "penny", value: 1 })
-// insertCoin({ name: "quarter", value: 10 })
+insertCoin({ name: "dime", value: 10 })
+insertCoin({ name: "penny", value: 1 })
+insertCoin({ name: "quarter", value: 10 })
 
 
 

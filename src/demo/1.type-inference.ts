@@ -10,6 +10,15 @@ const d: boolean = true;
 const add: (x: number, y: number) => number = (x: number, y: number): number => x + y;
 
 
+// Generics are mostly similar to what you would expect
+type Tweet = {userId: string, date: string, content: string};
+type User = { name: string; id: string; };
+
+const tweets: Array<Tweet> = new Array<Tweet>();
+
+// preferably written like
+const users: User[] = []; // treated like Array<User>
+
 
 
 
@@ -32,6 +41,7 @@ const x = "ABC";
 const y = [1,2,3];
 const z = true;
 const subtract = (x: number, y: number) => (x - y).toFixed(3);
+// const add: (x: number, y: number) => number = (x: number, y: number): number => x + y;
 
 
 

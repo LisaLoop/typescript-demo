@@ -63,13 +63,7 @@ const seagull: Bird = {fly: () => {}}
 
 type UTCDate = string;
 type Id = string;
-type Tweet = {userId: Id, date: UTCDate, content: string}
-
-
-
-
-
-
+type Tweet = {userId: Id, date: UTCDate, content: string};
 
 
 
